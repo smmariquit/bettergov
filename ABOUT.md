@@ -1,6 +1,6 @@
 ## Inspiration
 
-The inspiration for BetterGov.ph came from recognizing the need to modernize and streamline access to Philippine government services. While the government provides numerous essential services, finding and accessing them can be challenging for citizens. We wanted to create a user-friendly, intuitive platform that brings these services together in one place, making government services more accessible to all Filipinos.
+The inspiration for BetterGov.ph came from recognizing the need to modernize and simplify access to Philippine government services. While the government provides numerous essential services, finding and accessing them can be challenging for citizens. We wanted to create a user-friendly, intuitive platform that brings these services together in one place, making government services more accessible to all Filipinos.
 
 ## What it does
 
@@ -8,7 +8,7 @@ BetterGov.ph serves as a centralized portal for Philippine government services, 
 
 - A modern, user-friendly interface for accessing government services
 - Real-time information widgets (weather updates, forex rates)
-- Comprehensive service directory with easy filtering and search
+- full service directory with easy filtering and search
 - Multilingual support (English and Filipino)
 - Mobile-responsive design for access on any device
 - Latest news and updates from government agencies
@@ -40,11 +40,11 @@ The platform is built using modern web technologies:
 
 - Created a modern, accessible interface for government services
 - Implemented a powerful search and filtering system
-- Developed a responsive design that works seamlessly on all devices
+- Developed a responsive design that works smooth on all devices
 - Built a scalable architecture that can accommodate future features
 - Achieved excellent performance metrics and load times
 - Successfully integrated real-time data feeds for weather and forex
-- Created a comprehensive design system for consistent user experience
+- Created a full design system for consistent user experience
 
 ## What we learned
 
