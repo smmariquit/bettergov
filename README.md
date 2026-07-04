@@ -29,7 +29,7 @@ Our goals include:
 ## Features
 
 - Modern, responsive design that works on all devices
-- Comprehensive directory of government services and agencies
+- full directory of government services and agencies
 - User-friendly navigation and search
 - Accessibility features for users with disabilities
 - Regular updates and maintenance
@@ -54,7 +54,7 @@ If you're interested in contributing, please reach out to us at [volunteers@bett
 
 ## Code of Conduct
 
-We are committed to fostering a welcoming and respectful community.
+We are committed to support a welcoming and respectful community.
 Please read our [Code of Conduct](./CODE_OF_CONDUCT.md) before participating.
 
 ## Contributing
@@ -129,7 +129,7 @@ For setup instructions, coverage details, and examples, see our [Testing Guide](
 Thanks to all the people who already contributed!
 
 <a href="https://github.com/bettergovph/bettergov/graphs/contributors">
-    <img src="https://contributors-img.web.app/image?repo=bettergovph/bettergov&max=750&columns=20" />
+ <img src="https://contributors-img.web.app/image?repo=bettergovph/bettergov&max=750&columns=20" />
 </a>
 
 ## License
