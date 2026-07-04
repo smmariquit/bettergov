@@ -63,17 +63,17 @@ The script `scripts/index_flood_control_arcgis.js` is used to index the flood co
 The flood control projects dashboard (`/flood-control-projects`) provides:
 
 1. Interactive visualizations of project data:
-   - Projects by year (bar chart)
-   - Top regions by project count (line chart)
-   - Distribution by type of work (pie chart)
+ - Projects by year (bar chart)
+ - Top regions by project count (line chart)
+ - Distribution by type of work (pie chart)
 
 2. Filtering capabilities for:
-   - Infrastructure Year
-   - Region
-   - Province
-   - Type of Work
-   - District Engineering Office
-   - Legislative District
+ - Infrastructure Year
+ - Region
+ - Province
+ - Type of Work
+ - District Engineering Office
+ - Legislative District
 
 3. Search functionality using Meilisearch to find specific projects
 
