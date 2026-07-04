@@ -10,15 +10,15 @@ A generic web crawler that fetches and stores web content using multiple backend
 
 - **Database**: Cloudflare D1 `BETTERGOV_DB`
 - **Environment Variables**:
-  - `JINA_API_KEY` - API key for Jina.ai
-  - `CF_ACCOUNT_ID` - Cloudflare account ID for browser rendering API
-  - `CF_API_TOKEN` - Cloudflare API token for browser rendering API
+ - `JINA_API_KEY` - API key for Jina.ai
+ - `CF_ACCOUNT_ID` - Cloudflare account ID for browser rendering API
+ - `CF_API_TOKEN` - Cloudflare API token for browser rendering API
 - **Endpoints**:
-  - `/api/crawl?url=<url>&crawler=<crawler_type>&force=<true|false>` - Fetches and stores content
-  - Parameters:
-    - `url`: The URL to crawl (required)
-    - `crawler`: The crawler implementation to use (`jina` or `cfbrowser`)
-    - `force`: Whether to force a fresh crawl even if cached data exists
+ - `/api/crawl?url=<url>&crawler=<crawler_type>&force=<true|false>` - Fetches and stores content
+ - Parameters:
+ - `url`: The URL to crawl (required)
+ - `crawler`: The crawler implementation to use (`jina` or `cfbrowser`)
+ - `force`: Whether to force a fresh crawl even if cached data exists
 
 ### 2. Weather Data (`api/weather.ts`)
 
@@ -28,8 +28,8 @@ Fetches weather data for major Philippine cities from OpenWeatherMap API and sto
 - **KV Store**: `WEATHER_KV`
 - **Environment Variables**: Requires `OPENWEATHERMAP_API_KEY`
 - **Endpoints**:
-  - `/api/weather` - Fetches from API if needed
-  - `/weather` - Reads only from KV store
+ - `/api/weather` - Fetches from API if needed
+ - `/weather` - Reads only from KV store
 
 ### 3. Currency Exchange Rates (`api/forex.ts`)
 
@@ -39,8 +39,8 @@ Fetches currency exchange rates from Bangko Sentral ng Pilipinas (BSP) and store
 - **KV Store**: `FOREX_KV`
 - **Data Source**: BSP Exchange Rate API
 - **Endpoints**:
-  - `/api/forex` - Fetches from API if needed
-  - `/forex` - Reads only from KV store
+ - `/api/forex` - Fetches from API if needed
+ - `/forex` - Reads only from KV store
 
 ### Web Crawler Architecture
 
@@ -101,19 +101,19 @@ The `types.ts` file contains TypeScript interfaces for:
 1. Make changes to TypeScript files in the `functions/` directory
 2. Run the TypeScript compiler to build the project:
 
-   ```
+ ```
    npm run functions:build
    ```
 
 3. Run the development server to test locally:
 
-   ```
+ ```
    npm run functions:dev
    ```
 
 4. Deploy to Cloudflare:
 
-   ```
+ ```
    npm run functions:deploy
    ```
 
@@ -121,19 +121,19 @@ The `types.ts` file contains TypeScript interfaces for:
 
 1. Install Wrangler CLI (Cloudflare Workers CLI):
 
-   ```
+ ```
    npm install -g wrangler
    ```
 
 2. Login to your Cloudflare account:
 
-   ```
+ ```
    wrangler login
    ```
 
 3. Create KV namespaces and D1 database:
 
-   ```
+ ```
    wrangler kv:namespace create WEATHER_KV
    wrangler kv:namespace create FOREX_KV
    wrangler d1 create bettergov
@@ -143,7 +143,7 @@ The `types.ts` file contains TypeScript interfaces for:
 
 5. Add your API keys as secrets:
 
-   ```
+ ```
    wrangler secret put OPENWEATHERMAP_API_KEY
    wrangler secret put JINA_API_KEY
    wrangler secret put CF_API_TOKEN
@@ -152,13 +152,13 @@ The `types.ts` file contains TypeScript interfaces for:
 
 6. Install TypeScript dependencies:
 
-   ```
+ ```
    npm install --save-dev typescript @cloudflare/workers-types
    ```
 
 7. Build and deploy the functions:
 
-   ```
+ ```
    npm run functions:build
    npm run functions:deploy
    ```
