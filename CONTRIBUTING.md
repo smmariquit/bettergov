@@ -3,43 +3,43 @@
 <a id="readme-top"></a>
 
 <details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#welcome">Welcome</a>
-    </li>
-    <li>
-      <a href="#better-gov-overview">Better Gov Overview</a>
-    </li>
-    <li>
-      <a href="#ground-rules">Ground Rules</a>
-    </li>
-    <li>
-      <a href="#community-engagement">Community Engagement</a>
-    </li>
-    <li>
-      <a href="#share-ideas">Share Ideas</a>
-    </li>
-    <li>
-      <a href="#report-issues-and-bugs">Report issues and bugs</a>
-    </li>
-    <li>
-      <a href="#before-you-start">Before you start</a>
-    </li>
-    <li>
-      <a href="#environment-setup">Environment setup</a>
-    </li>
-    <li>
-      <a href="#contribution-workflow">Contribution Workflow</a>
-      <ul>
-        <li><a href="#initial-setup">Initial Setup</a></li>
-        <li><a href="#branch-creation">Branch creation</a></li>
-        <li><a href="#development-loop">Development Loop</a></li>
-        <li><a href="#pull-requests">Pull requests</a></li>
-      </ul>
-    </li>
-    <li><a href="#resources">Resources</a></li>
-  </ol>
+ <summary>Table of Contents</summary>
+ <ol>
+ <li>
+ <a href="#welcome">Welcome</a>
+ </li>
+ <li>
+ <a href="#better-gov-overview">Better Gov Overview</a>
+ </li>
+ <li>
+ <a href="#ground-rules">Ground Rules</a>
+ </li>
+ <li>
+ <a href="#community-engagement">Community Engagement</a>
+ </li>
+ <li>
+ <a href="#share-ideas">Share Ideas</a>
+ </li>
+ <li>
+ <a href="#report-issues-and-bugs">Report issues and bugs</a>
+ </li>
+ <li>
+ <a href="#before-you-start">Before you start</a>
+ </li>
+ <li>
+ <a href="#environment-setup">Environment setup</a>
+ </li>
+ <li>
+ <a href="#contribution-workflow">Contribution Workflow</a>
+ <ul>
+ <li><a href="#initial-setup">Initial Setup</a></li>
+ <li><a href="#branch-creation">Branch creation</a></li>
+ <li><a href="#development-loop">Development Loop</a></li>
+ <li><a href="#pull-requests">Pull requests</a></li>
+ </ul>
+ </li>
+ <li><a href="#resources">Resources</a></li>
+ </ol>
 </details>
 
 ## Welcome
@@ -50,12 +50,12 @@ We welcome contributions of all kinds. Whether you are a developer, designer, wr
 
 Here are the types of contributions we currently accept and where to learn more in this guide:
 
-- Source Code – Fix bugs, add features, or improve existing code
-- Ideas – Share suggestions for improvements or new features
-- Bug Reporting – Help us identify and document issues
-- Translations – Make the project accessible in different languages
-- Documentation – Improve guides, tutorials, or reference docs
-- Data Scraping – Contribute data collection scripts or improvements
+- Source Code: Fix bugs, add features, or improve existing code
+- Ideas: Share suggestions for improvements or new features
+- Bug Reporting: Help us identify and document issues
+- Translations: Make the project accessible in different languages
+- Documentation: Improve guides, tutorials, or reference docs
+- Data Scraping: Contribute data collection scripts or improvements
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,12 +97,12 @@ If you encounter a problem with the project, please open an issue in this [repos
 
 When reporting an issue, please include the following details to help us investigate:
 
-- Description – A clear and concise explanation of the problem.
-- Steps to reproduce – How to reproduce the issue (step by step).
-- Expected behavior – What you thought should happen.
-- Actual behavior – What actually happened instead.
-- Environment details – Your operating system, browser (if applicable), Node.js version, etc.
-- Screenshots or logs – If relevant, add screenshots or error logs.
+- Description: A clear and concise explanation of the problem.
+- Steps to reproduce: How to reproduce the issue (step by step).
+- Expected behavior: What you thought should happen.
+- Actual behavior: What actually happened instead.
+- Environment details: Your operating system, browser (if applicable), Node.js version, etc.
+- Screenshots or logs: If relevant, add screenshots or error logs.
 
 > Tip: Check existing issues before creating a new one to avoid duplicates.
 
@@ -124,9 +124,9 @@ Before you start contributing, ensure you have the following:
 To set up your environment, perform the following actions:
 
 - At the root of the project, create a `.env` file. See [env.example](.env.example) for reference
-- Use the Node.js version specified in .nvmrc (recommended)
+- Use the Node.js version specified in.nvmrc (recommended)
 
-  ```
+ ```
   # If you have nvm installed:
 
   nvm use
@@ -138,12 +138,12 @@ To set up your environment, perform the following actions:
 
 - Install the dependencies
 
-  ```sh
+ ```sh
   npm install
   ```
 
 - Start the development server
-  ```sh
+ ```sh
   npm run dev
   ```
 
@@ -192,10 +192,10 @@ Add schema mappings to `.vscode/settings.json`:
 1. Open **Preferences/Settings** → **Languages & Frameworks** → **Schemas and DTDs** → **JSON Schema Mappings**
 2. Click the **+** button to add a new mapping
 3. Configure each schema:
-   - **Name:** Descriptive name (e.g., "LGU Region Schema")
-   - **Schema file or URL:** Browse to schema file (e.g., `src/data/directory/lgu/schema/lgu-region.schema.json`)
-   - **Schema version:** JSON Schema version 7
-   - **File path pattern:** Add pattern (e.g., `src/data/directory/lgu/*.json`)
+ - **Name:** Descriptive name (e.g., "LGU Region Schema")
+ - **Schema file or URL:** Browse to schema file (e.g., `src/data/directory/lgu/schema/lgu-region.schema.json`)
+ - **Schema version:** JSON Schema version 7
+ - **File path pattern:** Add pattern (e.g., `src/data/directory/lgu/*.json`)
 
 #### Running Validation Locally
 
@@ -226,33 +226,33 @@ Schema validation runs automatically in CI/CD when changes are made to:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- This can be added later -->
+<!, This can be added later, >
 
-<!-- ### Troubleshoot
+<!, ### Troubleshoot
 
 If you encounter issues as you set up your environment, refer to the following:
 
 - Windows: {share a link to an external page that shares troubleshooting steps or share the procedure as sub-bullets}
 - macOS: {share a link to an external page that shares troubleshooting steps or share the procedure as sub-bullets}
-- Linux: {share a link to an external page that shares troubleshooting steps or share the procedure as sub-bullets} -->
+- Linux: {share a link to an external page that shares troubleshooting steps or share the procedure as sub-bullets}, >
 
-<!-- This can be added later -->
+<!, This can be added later, >
 
-<!-- ## Best practices -->
+<!, ## Best practices, >
 
-<!-- {Option 1} Our project has adopted the following best practices for contributing:
+<!, {Option 1} Our project has adopted the following best practices for contributing:
 
 - {Item 1}
 - {Item 2}
 - {Item 3}
 
-{Option 2} Our project uses the {name and link to resource for best practices, such as a coding style guide or writing style guide} as our parent guide for best practices. Reference the guide to familiarize yourself with the best practices we want contributors to follow. -->
+{Option 2} Our project uses the {name and link to resource for best practices, such as a coding style guide or writing style guide} as our parent guide for best practices. Reference the guide to familiarize yourself with the best practices we want contributors to follow., >
 
-<!-- This can be added later -->
-<!--
+<!, This can be added later, >
+<!, 
 ## Content style guide
 
-Read our {name and link to your style guide} to understand our guidelines for writing and formatting documents. The purpose of our style guide is to ensure consistency in the tone, voice, and structure of our documentation. -->
+Read our {name and link to your style guide} to understand our guidelines for writing and formatting documents. The purpose of our style guide is to ensure consistency in the tone, voice, and structure of our documentation., >
 
 ## Contribution workflow
 
@@ -381,7 +381,7 @@ We use Pull Requests (PRs) to review and merge changes. Follow these steps when 
 - Target the main branch (or the branch specified by maintainers).
 - Provide a clear title and detailed description of your changes.
 - Reference any related issues (e.g., Closes #12).
-- **AI-Assisted Work Disclosure:** If you used AI tools to help generate or significantly modify code in your PR, please disclose this in the PR description. This helps maintainers conduct a more thorough review.
+- **AI-Assisted Work Disclosure:** If you used AI tools to help generate or modify code in your PR, please disclose this in the PR description. This helps maintainers conduct a more thorough review.
 
 **Wait for review:**
 
@@ -405,7 +405,7 @@ git push
 - https://www.conventionalcommits.org/en/v1.0.0/
 - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
 
-<!-- Urls -->
+<!, Urls, >
 
 [commits]: https://www.conventionalcommits.org/en/v1.0.0/
 [issues]: https://github.com/bettergovph/bettergov/issues/new
