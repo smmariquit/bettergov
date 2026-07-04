@@ -17,30 +17,30 @@ This project uses Playwright for end-to-end testing to ensure critical user flow
 Our E2E tests cover:
 
 1. **Critical User Flows**
-   - Homepage loading and navigation
-   - PhilSys National ID registration
-   - Government services search
-   - Language switching
-   - Emergency hotlines access
+ - Homepage loading and navigation
+ - PhilSys National ID registration
+ - Government services search
+ - Language switching
+ - Emergency hotlines access
 
 2. **Navigation**
-   - Main menu navigation
-   - Dropdown menus
-   - Footer links
-   - Breadcrumb navigation
+ - Main menu navigation
+ - Dropdown menus
+ - Footer links
+ - Breadcrumb navigation
 
 3. **Accessibility**
-   - WCAG compliance checks using axe-core
-   - Keyboard navigation
-   - ARIA labels and alt text
-   - Focus indicators
+ - WCAG compliance checks using axe-core
+ - Keyboard navigation
+ - ARIA labels and alt text
+ - Focus indicators
 
 4. **Performance**
-   - Page load times
-   - First Contentful Paint metrics
-   - DOM size optimization
-   - Image optimization
-   - Slow network handling
+ - Page load times
+ - First Contentful Paint metrics
+ - DOM size optimization
+ - Image optimization
+ - Slow network handling
 
 #### Writing E2E Tests
 
