@@ -1,6 +1,6 @@
 # Meilisearch Setup and Data Processing
 
-Welcome! This guide covers setting up Meilisearch for BetterGov's search functionality and documents all the data processing scripts. Whether you're setting up search for the first time or maintaining existing data, you'll find everything you need here.
+Welcome! This guide covers setting up Meilisearch for BetterGov's search functionality and documents all the data processing scripts. If you are setting up search for the first time or maintaining existing data, you'll find everything you need here.
 
 ## What's Inside
 
@@ -18,7 +18,7 @@ Think of Meilisearch as the brain behind BetterGov's search feature. It helps us
 
 Before we begin, make sure you have these ready:
 
-1. **Node.js** version 22 or newer (check with `node --version`)
+1. **Node.js** version 22 or newer (check with `node, version`)
 2. **A text editor** to update configuration files
 3. **Terminal access** to run commands
 4. **About 10 minutes** for the initial setup
